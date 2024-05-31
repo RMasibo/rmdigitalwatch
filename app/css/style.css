@@ -1,0 +1,37 @@
+|*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: bold 10px Roboto, sans-serif;
+    background-color:#ffffff ;
+}
+.clock{
+    border: 10px solid #f8a3d7;
+    color: #f8a3d7;
+    padding: 20px 30px;
+    border-radius: 20px;
+    background-color: #1f1e1e;
+}
+
+#date{ 
+    text-align: center;
+}
+
+.clock ul{
+    list-style: none;
+    display: flex;
+    font-size: 80px;
+    gap: 13px;
+}
+
+.point{
+    color: #ff0000;
+}
+#ampm{
+    color: #e48888;
+}
